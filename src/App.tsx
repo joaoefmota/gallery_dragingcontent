@@ -49,7 +49,7 @@ function App() {
           onDrag={handleDrag}
           onDragEnd={handleDragEnd}
           ref={scrollDivRef}
-          className={`z-50 p-4 h-full flex flex-row overflow-x-hidden items-stretch gap-4 ${
+          className={`z-50 p-4 h-60 flex flex-row overflow-x-auto items-stretch gap-4 ${
             moving ? "cursor-grabbing" : "cursor-grab"
           }`}
         >
